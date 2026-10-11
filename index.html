@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Центр капоейра</title>
+</head>
+<body>
+     <header class="site-header">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+          <div class="container">
+                <div class="header-inner">
+                 <a href="/" class="logo">
+                       <img src="logo.svg" alt="Логотип Школа Капоэйры">
+                    </a>
+                    <label for="menu-toggle" class="burger">
+                    <div class="icon-open">
+                          <span class="line"></span>
+                           <span class="line"></span>
+                           <span class="line"></span>
+                    </div>
+                    </label>
+                </div>
+          </div>
+          <nav class="nav-menu">
+            <label for="menu-toggle" class="close-menu">✕</label>
+            <ul>
+                <li><a href="/adaptiv-kapoeira">Адаптивная капоэйра 7+</a></li>
+                <li><a href="/pro-contact">Коммуникативные группы «ПРОконтакт» (7+)</a></li>
+                <li><a href="/communication">Общайся - не смущайся (12+)</a></li>
+                <li><a href="/art-studio">Творческая мастерская  (7+)</a></li>
+                <li><a href="/uznai-sebya">«Узнай себя» работа с эмоциями (10+)</a></li>
+                <li><a href="/karaoke">Караоке студия «Мой голос» (10+)</a></li>
+                <li><a href="/kinoclub">Киноклуб (12+)</a></li>
+                <li><a href="/discoclub">Дискоклуб (7+)</a></li>
+                <li><a href="/pilates">Семейный пилатес (10+)</a></li>
+                <li><a href="/parants-club">Родительский клуб (консультации для родителей)</a></li>
+                <li><a href="/for-specialists">Супервизии поведенческого аналитика (для специалистов)</a></li>
+                <li><a href="/contacts">Контакты</a></li>
+            </ul>
+                <!-- Контакты внутри мобильного меню -->
+    <div class="nav-menu-contacts">
+        
+        <div class="nav-menu-socials">
+            <!-- Телефон -->
+            <a href="tel:+79049831521" class="nav-menu-social-link" aria-label="Позвонить">
+                <svg class="icon-filled" viewBox="0 0 24 24">
+                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                </svg>
+            </a>
+            
+            <!-- Почта -->
+            <a href="mailto:info@shkola-kapoeira.ru" class="nav-menu-social-link" aria-label="Написать на почту">
+                <svg class="icon-filled" viewBox="0 0 24 24">
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+            </a>
+            
+            <!-- MAX -->
+            <a href="#" target="_blank" rel="noopener noreferrer" class="nav-menu-social-link" aria-label="Мы в MAX">
+                <svg class="icon-filled icon-max" viewBox="0 0 720 720">
+                    <path fill="currentColor" d="M350.4,9.6C141.8,20.5,4.1,184.1,12.8,390.4c3.8,90.3,40.1,168,48.7,253.7,2.2,22.2-4.2,49.6,21.4,59.3,31.5,11.9,79.8-8.1,106.2-26.4,9-6.1,17.6-13.2,24.2-22,27.3,18.1,53.2,35.6,85.7,43.4,143.1,34.3,299.9-44.2,369.6-170.3C799.6,291.2,622.5-4.6,350.4,9.6h0ZM269.4,504c-11.3,8.8-22.2,20.8-34.7,27.7-18.1,9.7-23.7-.4-30.5-16.4-21.4-50.9-24-137.6-11.5-190.9,16.8-72.5,72.9-136.3,150-143.1,78-6.9,150.4,32.7,183.1,104.2,72.4,159.1-112.9,316.2-256.4,218.6h0Z"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+          </nav>
+     </header> 
+     <!-- 2. ГЛАВНЫЙ ЭКРАН (Hero) -->
+    <main>
+        <section class="hero">
+    <!-- ФОНОВОЕ ВИДЕО -->
+              <video class="hero-video" autoplay muted loop playsinline>
+               <source src="videokapoera.mp4" type="video/mp4">
+              </video>
+
+         <!-- ЗАТЕМНЕНИЕ (чтобы белый текст читался на любом видео) -->
+              <div class="hero-overlay"></div>
+
+               <!-- КОНТЕНТ ПОВЕРХ ВИДЕО -->
+              <div class="container hero-content">
+                <h1>Центр "Школа Капоэйры"</h1>
+               <p>Раскрываем потенциал через движение, музыку и игру</p>
+                <a href="#contacts" class="btn">Записаться на пробное занятие</a>
+               </div>
+             </section>
+<!-- 3. БЛОК "О ЦЕНТРЕ" -->
+<section class="about">
+    <div class="container">
+        <h2 class="section-title">Философия нашего центра</h2>
+        <p class="about-text">
+            Центр «Школа Капоэйры» — это безопасное пространство для ребят с особенностями развития. 
+            В отличие от контактных единоборств, у нас нет столкновений и агрессии. 
+            Вместо этого дети учатся чувствовать пространство, управлять своим телом и взаимодействовать друг с другом через спорт, музыку и игру.
+        </p>
+        
+        <div class="about-wrapper">
+            <!-- Левая колонка: Карточки преимуществ -->
+            <div class="about-features">
+                <div class="feature-card">
+                    <div class="feature-icon">01</div>
+                    <h3>Без агрессии</h3>
+                    <p>Дети осваивают акробатику и движения, развивая координацию и воображение, без столкновений.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">02</div>
+                    <h3>Музыка и ритм</h3>
+                    <p>Работа под ритм музыкальных инструментов и совместное пение улучшают чувство такта и память.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">03</div>
+                    <h3>Коммуникация</h3>
+                    <p>В парах ребята учатся чувствовать партнёра, договариваться и действовать слаженно.</p>
+                </div>
+            </div>
+
+            <!-- Правая колонка: Фотография -->
+            <div class="about-image">
+                <!-- ВАЖНО: Проверь расширение файла в папке fotos (1.jpg или 1.png) -->
+                <img src="fotos/6.jpg" alt="Безопасные и радостные занятия в центре Капоэйры">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 4. ПЛИТКИ УСЛУГ -->
+<section class="services">
+    <div class="container">
+        <h2 class="section-title">Наши направления</h2>
+        <p class="section-subtitle">Занятия для детей, подростков, родителей и специалистов</p>
+        
+        <div class="services-grid">
+            <!-- Плитка 1 -->
+            <a href="/adaptive-capoeira" class="service-card">
+                <img src="fotos/1.jpg" alt="Адаптивная капоэйра" class="service-card-image">
+                <span class="service-age">7+</span>
+                <div class="service-card-content">
+                    <h3>Адаптивная капоэйра</h3>
+                    <p>Спорт, музыка и игра без столкновений</p>
+                </div>
+            </a>
+
+            <!-- Плитка 2 -->
+            <a href="/procontact" class="service-card">
+                <img src="fotos/2.jpg" alt="ПРОконтакт" class="service-card-image">
+                <span class="service-age">7+</span>
+                <div class="service-card-content">
+                    <h3>ПРОконтакт</h3>
+                    <p>Навыки общения и командной работы</p>
+                </div>
+            </a>
+
+            <!-- Плитка 3 -->
+            <a href="/obshchaysya" class="service-card">
+                <img src="fotos/3.jpg" alt="Общайся не смущайся" class="service-card-image">
+                <span class="service-age">12+</span>
+                <div class="service-card-content">
+                    <h3>Общайся — не смущайся</h3>
+                    <p>Продвинутая коммуникация через ролевые игры</p>
+                </div>
+            </a>
+
+            <!-- Плитка 4 -->
+            <a href="/tvorcheskaya-masterskaya" class="service-card">
+                <img src="fotos/4.jpg" alt="Творческая мастерская" class="service-card-image">
+                <span class="service-age">7+</span>
+                <div class="service-card-content">
+                    <h3>Творческая мастерская</h3>
+                    <p>Мелкая моторика и пространственное мышление</p>
+                </div>
+            </a>
+
+            <!-- Плитка 5 -->
+            <a href="/uznay-sebya" class="service-card">
+                <img src="fotos/5.jpg" alt="Узнай себя" class="service-card-image">
+                <span class="service-age">10+</span>
+                <div class="service-card-content">
+                    <h3>Узнай себя</h3>
+                    <p>Работа с эмоциями и саморегуляция</p>
+                </div>
+            </a>
+
+            <!-- Плитка 6 -->
+            <a href="/karaoke" class="service-card">
+                <img src="fotos/7.jpg" alt="Караоке студия" class="service-card-image">
+                <span class="service-age">10+</span>
+                <div class="service-card-content">
+                    <h3>Караоке «Мой голос»</h3>
+                    <p>Вокал, общение и самовыражение</p>
+                </div>
+            </a>
+
+            <!-- Плитка 7 -->
+            <a href="/kinoklub" class="service-card">
+                <img src="fotos/8.jpg" alt="Киноклуб" class="service-card-image">
+                <span class="service-age">12+</span>
+                <div class="service-card-content">
+                    <h3>Киноклуб</h3>
+                    <p>Смотрим, обсуждаем, снимаем ролики</p>
+                </div>
+            </a>
+
+            <!-- Плитка 8 -->
+            <a href="/diskoklub" class="service-card">
+                <img src="fotos/9.jpg" alt="Дискоклуб" class="service-card-image">
+                <span class="service-age">7+</span>
+                <div class="service-card-content">
+                    <h3>Дискоклуб</h3>
+                    <p>Танцы как язык эмоций</p>
+                </div>
+            </a>
+
+            <!-- Плитка 9 -->
+            <a href="/pilates" class="service-card">
+                <img src="fotos/10.jpg" alt="Семейный пилатес" class="service-card-image">
+                <span class="service-age">10+</span>
+                <div class="service-card-content">
+                    <h3>Семейный пилатес</h3>
+                    <p>Здоровая спина и время вместе</p>
+                </div>
+            </a>
+
+            <!-- Плитка 10 -->
+            <a href="/roditelskiy-klub" class="service-card">
+                <img src="fotos/11.jpg" alt="Родительский клуб" class="service-card-image">
+                <span class="service-age">18+</span>
+                <div class="service-card-content">
+                    <h3>Родительский клуб</h3>
+                    <p>Поддержка и понимание для родителей</p>
+                </div>
+            </a>
+
+            <!-- Плитка 11 — АКЦЕНТНАЯ (на всю ширину) -->
+            <a href="/supervizii" class="service-card service-card--featured">
+                <img src="fotos/12.jpg" alt="Супервизии" class="service-card-image">
+                <div class="service-card-content featured-content">
+                    <span class="service-badge">Для специалистов</span>
+                    <h3>Супервизии поведенческого аналитика</h3>
+                    <p>Профессиональная поддержка педагогов: анализ поведения, стратегии вмешательства, работа с мотивацией ребёнка.</p>
+                    <span class="featured-cta">Подробнее →</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- БЛОК ГАЛЕРЕИ (КАРУСЕЛЬ + ЛАЙТБОКС) -->
+<section class="gallery">
+    <div class="container">
+        <h2 class="section-title">Наши занятия</h2>
+    </div>
+    
+    <div class="gallery-wrapper">
+        <!-- Кнопка Влево -->
+        <button class="gallery-arrow prev" id="prevBtn" aria-label="Предыдущее фото">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+
+        <!-- Окно карусели -->
+        <div class="gallery-viewport">
+            <div class="gallery-track" id="carouselTrack">
+                <div class="carousel-slide">
+                    <img src="fotos/1.jpg" alt="Занятие капоэйрой" class="gallery-item">
+                </div>
+                <div class="carousel-slide">
+                    <img src="fotos/2.jpg" alt="Музыкальные инструменты" class="gallery-item">
+                </div>
+                <div class="carousel-slide">
+                    <img src="fotos/3.jpg" alt="Дети играют" class="gallery-item">
+                </div>
+                <div class="carousel-slide">
+                    <img src="fotos/4.jpg" alt="Творческая мастерская" class="gallery-item">
+                </div>
+                <div class="carousel-slide">
+                    <img src="fotos/5.jpg" alt="Групповое занятие" class="gallery-item">
+                </div>
+                <div class="carousel-slide">
+                    <img src="fotos/6.jpg" alt="Радостные эмоции" class="gallery-item">
+                </div>
+                <div class="carousel-slide">
+                    <img src="fotos/7.jpg" alt="Выступление" class="gallery-item">
+                </div>
+                <div class="carousel-slide">
+                    <img src="fotos/8.jpg" alt="Тренировка" class="gallery-item">
+                </div>
+            </div>
+        </div>
+
+        <!-- Кнопка Вправо -->
+        <button class="gallery-arrow next" id="nextBtn" aria-label="Следующее фото">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+    </div>
+
+    <!-- ЛАЙТБОКС (Увеличенное фото, скрыт по умолчанию) -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="Закрыть">✕</button>
+        <img src="" alt="Увеличенное фото" class="lightbox-img">
+    </div>
+</section>
+        <!-- БЛОК ОТЗЫВОВ (КОНКРЕТНЫЕ ИСТОРИИ + ЯНДЕКС) -->
+<section class="reviews">
+    <div class="container">
+        <h2 class="section-title">Истории наших семей</h2>
+        <p class="section-subtitle">Реальные результаты, которыми делятся родители</p>
+        
+        <div class="reviews-grid">
+            <!-- Отзыв 1 -->
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="review-avatar">А</div>
+                    <div>
+                        <h4>Анна, мама Артёма (7 лет)</h4>
+                        <div class="review-stars">★★★★★</div>
+                    </div>
+                </div>
+                <p class="review-text">«Артём очень боялся новых людей и отказывался заходить в зал. Но инструкторы нашли подход через игру и музыку, без давления. Спустя два месяца он уже сам бежит на занятия и научился здороваться с ребятами. Для нас это огромная победа!»</p>
+            </div>
+
+            <!-- Отзыв 2 -->
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="review-avatar">М</div>
+                    <div>
+                        <h4>Мария, мама Софии (10 лет)</h4>
+                        <div class="review-stars">★★★★★</div>
+                    </div>
+                </div>
+                <p class="review-text">«Нам понравилась атмосфера полного принятия. Здесь нет соревнований и агрессии. София раскрылась в творческой мастерской, а семейный пилатес помог нам наладить тактильный контакт и лучше понимать друг друга.»</p>
+            </div>
+
+            <!-- Отзыв 3 -->
+            <div class="review-card">
+                <div class="review-header">
+                    <div class="review-avatar">Д</div>
+                    <div>
+                        <h4>Дмитрий, папа Ильи (12 лет)</h4>
+                        <div class="review-stars">★★★★★</div>
+                    </div>
+                </div>
+                <p class="review-text">«Илья ходит в киноклуб и на "ПРОконтакт". Видно, что педагоги действительно разбираются в особенностях развития. Сын стал спокойнее реагировать на сбои в расписании и научился договариваться со сверстниками.»</p>
+            </div>
+        </div>
+
+        <!-- Призыв к действию: ссылка на Яндекс.Карты -->
+        <div class="reviews-cta">
+            <p>Читайте больше реальных историй и смотрите актуальный рейтинг нашего центра</p>
+            <!-- ЗАМЕНИТЕ href НА РЕАЛЬНУЮ ССЫЛКУ НА ВАШУ ОРГАНИЗАЦИЮ В ЯНДЕКС.КАРТАХ -->
+            <a href="https://yandex.ru/maps/org/shkola_kapoeiry/..." target="_blank" rel="noopener noreferrer" class="yandex-link">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/>
+    </svg>
+    Читать отзывы на Яндекс.Картах
+</a>
+        </div>
+    </div>
+</section>
+<!-- ФОРМА ОБРАТНОЙ СВЯЗИ (УНИВЕРСАЛЬНАЯ) -->
+<section class="contact-form">
+    <!-- Декоративное фоновое свечение -->
+    <div class="form-bg-decoration"></div>
+    
+    <div class="container">
+        <div class="form-card">
+            <!-- Левая часть: только заголовок и описание -->
+            <div class="form-info">
+                <h2 class="form-title">Запишитесь на пробное занятие</h2>
+                <p class="form-description">
+                    Оставьте номер телефона — мы перезвоним вам в течение дня, 
+                    ответим на все вопросы и подберём удобное время.
+                </p>
+            </div>
+
+            <!-- Правая часть: форма -->
+            <!-- ВАЖНО: Замени YOUR_FORM_ID на свой ID с Formspree -->
+            <form class="form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <!-- Скрытое поле: с какой страницы пришла заявка -->
+                <input type="hidden" name="source" value="Главная страница">
+
+                <div class="form-group">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" id="name" name="name" placeholder="Как к вам обращаться?">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Телефон *</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="+7 (___) ___-__-__">
+                </div>
+
+                <button type="submit" class="btn btn-submit">
+                    <span class="btn-text">Отправить</span>
+                    <span class="btn-loader" hidden>Отправляем...</span>
+                </button>
+
+                <p class="form-privacy">
+                    Нажимая кнопку, вы соглашаетесь с 
+                    <a href="/privacy">политикой обработки персональных данных</a>
+                </p>
+
+                <!-- Сообщение об успехе/ошибке (добавляется через JS) -->
+                <div class="form-message" hidden></div>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- КОНТАКТЫ -->
+<section id="contacts" class="contacts">
+    <div class="container">
+        <h2 class="section-title">Контакты</h2>
+        
+        <div class="contacts-grid">
+            <!-- Левая часть: Контакты -->
+            <div class="contacts-info">
+                <!-- Адрес -->
+                <div class="contact-item">
+                    <svg class="icon-filled" viewBox="0 0 24 24">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                    </svg>
+                    <p>г. Екатеринбург, ул. Шаумяна, 28</p>
+                </div>
+
+                <!-- Телефон -->
+                <div class="contact-item">
+                    <svg class="icon-filled" viewBox="0 0 24 24">
+                        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                    </svg>
+                    <a href="tel:+79049831521">8 904 983 15 21</a>
+                </div>
+
+                <!-- Иконки соцсетей -->
+                <div class="social-icons">
+                    <!-- Почта -->
+                    <a href="mailto:info@shkola-kapoeira.ru" class="social-link" aria-label="Написать на почту">
+                        <svg class="icon-filled" viewBox="0 0 24 24">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                    </a>
+                    <!-- MAX -->
+<a href="#" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Мы в MAX">
+    <img src="Max_logo_olive.svg" alt="MAX" class="icon-img">
+</a>
+                </div>
+            </div>
+
+            <!-- Правая часть: Яндекс.Карта -->
+            <div class="contacts-map">
+                <iframe src="https://yandex.ru/map-widget/v1/?ll=60.584575%2C56.809586&amp;z=17&amp;pt=60.584575,56.809586,pm2rdm" width="100%" height="400" frameborder="0" allowfullscreen="true"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+        <!-- 7. ПОДВАЛ (ФУТЕР) -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <!-- Колонка 1: Направления (часть 1) -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">Направления</h4>
+                    <ul class="footer-links">
+                        <li><a href="/adaptiv-kapoeira">Адаптивная капоэйра</a></li>
+                        <li><a href="/pro-contact">«ПРОконтакт»</a></li>
+                        <li><a href="/communication">Общайся — не смущайся</a></li>
+                        <li><a href="/art-studio">Творческая мастерская</a></li>
+                        <li><a href="/uznai-sebya">«Узнай себя»</a></li>
+                        <li><a href="/karaoke">Караоке «Мой голос»</a></li>
+                    </ul>
+                </div>
+
+                <!-- Колонка 2: Направления (часть 2) и прочее -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">&nbsp;</h4>
+                    <ul class="footer-links">
+                        <li><a href="/kinoclub">Киноклуб</a></li>
+                        <li><a href="/discoclub">Дискоклуб</a></li>
+                        <li><a href="/pilates">Семейный пилатес</a></li>
+                        <li><a href="/parants-club">Родительский клуб</a></li>
+                        <li><a href="/for-specialists">Супервизии</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+
+                <!-- Колонка 3: Контакты и соцсети -->
+                <div class="footer-col footer-contacts-col">
+                    <h4 class="footer-heading">Контакты</h4>
+                    <div class="footer-contact-item">
+                        <svg class="icon-filled-footer" viewBox="0 0 24 24">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                        </svg>
+                        <p>г. Екатеринбург, ул. Шаумяна, 28</p>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg class="icon-filled-footer" viewBox="0 0 24 24">
+                            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                        </svg>
+                        <a href="tel:+79049831521">8 904 983 15 21</a>
+                    </div>
+
+                    <div class="footer-socials">
+                        <a href="mailto:info@shkola-kapoeira.ru" class="footer-social-link" aria-label="Написать на почту">
+                            <svg class="icon-filled-footer" viewBox="0 0 24 24">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            </svg>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Мы в MAX">
+    <img src="Max_logo_olive.svg" alt="MAX" class="footer-icon-img">
+</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Нижняя часть: Юридические ссылки и копирайт -->
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <a href="/privacy">Обработка персональных данных</a>
+                    <a href="/terms">Пользовательское соглашение</a>
+                </div>
+                <p class="copyright">© 2026 Школа Капоэйры</p>
+            </div>
+        </div>
+    </footer>
+<!-- Плавающий виджет MAX (десктоп) -->
+    <a href="https://max.ru/ваш_аккаунт" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       class="floating-max" 
+       aria-label="Написать в MAX">
+        <img src="Max_logo_olive.svg" alt="MAX">
+    </a>
+
+    <!-- Мобильная плашка с двумя иконками -->
+    <div class="mobile-bar">
+        <a href="tel:+79049831521" class="mobile-bar-link" aria-label="Позвонить">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+            </svg>
+        </a>
+        <a href="https://max.ru/ваш_аккаунт" target="_blank" rel="noopener noreferrer" class="mobile-bar-link" aria-label="Написать в MAX">
+            <img src="Max_logo_olive.svg" alt="MAX">
+        </a>
+    </div>
+
+    <!-- Скрипт должен быть ПЕРЕД закрывающим </body>, а не после него -->
+    <script src="script.js" defer></script> 
+</body>
+</html>
