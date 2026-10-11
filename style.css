@@ -74,10 +74,10 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 100%;                          /* без жёсткого ограничения */
     width: 100%;
     margin: 0 auto;
-    padding: 0 clamp(15px, 2vw, 20px);
+    padding: 0 clamp(16px, 4vw, 80px);        /* отступы от краёв: 16–80px */
 }
 
 /* Добавляем flex только для шапки, чтобы выровнять лого и бургер */
