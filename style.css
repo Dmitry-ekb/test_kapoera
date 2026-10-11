@@ -406,13 +406,13 @@ body {
     margin-right: auto;
 }
 
-.about-text {
-    font-size: var(--font-size-lg);
-    color: var(--color-secondary);
-    text-align: left;
+.about-text,
+.section-subtitle,
+.form-description,
+.review-text {
     max-width: 800px;
-    margin: 0 auto clamp(24px, 4vw, 60px) auto;
-    line-height: 1.7;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Сетка для разделения карточек и фото */
@@ -532,7 +532,6 @@ body {
     color: var(--color-secondary);
     font-size: var(--font-size-lg);
     margin-bottom: var(--spacing-xl);
-    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -729,9 +728,11 @@ body {
 
 .gallery-wrapper {
     position: relative;
-    max-width: 1400px;
+    /* max-width: 1400px;  ← удалить */
+    width: 100%;
     margin: 0 auto;
-    padding: 0 var(--spacing-md);
+    padding: 0 clamp(16px, 4vw, 80px);
+    overflow: hidden;    /* ← добавить, чтобы стрелки не вылезали */
 }
 
 /* Окно карусели — обрезает лишнее */
@@ -1469,7 +1470,7 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(42, 49, 43, 0.6);;
+    background-color: rgba(42, 49, 43, 0.6);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     padding: 12px 20px;
@@ -1525,7 +1526,6 @@ body {
     }
 
     .about-image {
-        aspect-ratio: auto;
         height: auto;
         order: -1;
     }
@@ -1596,11 +1596,6 @@ body {
 
     .section-title {
         font-size: clamp(28px, 5vw, 40px);
-    }
-
-    .about-text {
-        font-size: var(--font-size-base);
-        text-align: left;
     }
 
     .services-grid {
